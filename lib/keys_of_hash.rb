@@ -3,6 +3,10 @@ class Hash
     # code goes here
     arr = Array.new 
     self.each do |key, value|
+      arguments.each do |el| 
+        
+      end 
+    end 
     arr 
   end
 end
